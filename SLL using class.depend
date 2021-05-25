@@ -1,19 +1,19 @@
 # depslib dependency file v1.0
-1620741338 source:e:\codes\sll using class\main.cpp
+1621905559 source:e:\codes\sll using class\main.cpp
 	<iostream>
 	"Node.h"
 	"Sll.h"
 
-1620667496 e:\codes\sll using class\node.h
+1621633766 e:\codes\sll using class\node.h
 
-1620741026 e:\codes\sll using class\sll.h
+1621906121 e:\codes\sll using class\sll.h
 	"Node.h"
 
-1620667496 source:e:\codes\sll using class\node.cpp
+1621634426 source:e:\codes\sll using class\node.cpp
 	"Node.h"
 	<iostream>
 
-1620741394 source:e:\codes\sll using class\sll.cpp
+1621905774 source:e:\codes\sll using class\sll.cpp
 	"Sll.h"
 	"Node.h"
 	<iostream>

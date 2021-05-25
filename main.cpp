@@ -65,8 +65,80 @@ int main()
     linked.insertion(5) ;
     linked.insertion(9) ;
 
-    linked.delete_node(4) ;
+    linked.delete_node_using_index(4) ;
     linked.print_while() ;
+    cout << "================== \n" ;
 
+    Sll linked2 ;
+    linked2.insertion(4) ;
+    linked2.insertion(5) ;
+    linked2.insertion(9) ;
+    linked2.insertion(8) ;
+
+    linked2.delete_first_node_exist(5) ;
+    linked2.print_while() ; // 4 9 8
+
+    linked2.swap_each_2value() ;
+    linked2.print_while() ; // 9 4 8
+
+    linked2.delete_even_pos() ;// 9 8
+    linked2.print_while() ;
+
+    linked2.insert_sorted(4) ;
+    linked2.insert_sorted(15) ;
+    linked2.insert_sorted(11) ;
+
+    linked2.print_while() ; // 4 9 11 15
+
+    linked2.insertion(9) ; // 4 9 11 15 9
+    linked2.left_rotate(3) ; // 15 9 4 9 11
+    linked2.print_while() ;
+
+    linked2.remove_duplicates_notSorted() ;
+    linked2.print_while() ;
+
+    linked2.move_to_end_list(15) ;
+    linked2.print_while() ;
+
+
+
+
+
+
+
+
+
+
+
+/*
+    Sll linked3 ;
+    linked3.insert_sorted(4) ;
+    linked3.insert_sorted(7) ;
+    linked3.insert_sorted(4) ;
+    linked3.print_while() ;
+    cout << "reverse \n" ;
+    linked3.Myreverse() ;
+    linked3.print_while() ;
+    linked3.add_at_index(3 , 0) ;
+    linked3.print_while() ;
+
+    linked3.add_at_index(3 , 0) ;
+    linked3.print_while() ;
+
+    cout << "\nThe addresses of each node \n"  << "Before swapping : " ;
+    linked3.print_addresses() ;
+    cout << "After swapping : " ;
+    linked3.swap_head_tail() ;
+    linked3.print_addresses() ; // 0 4 0 4 7
+
+    linked3.left_rotate(6) ;
+    linked3.print_while() ;
+
+    //linked3.remove_duplicate_andKeep_theFitstOne() ;
+    linked3.print_while() ;
+    linked3.move_to_end_list( 4 ) ;
+    linked3.print_while() ;
+
+*/
 
 }
